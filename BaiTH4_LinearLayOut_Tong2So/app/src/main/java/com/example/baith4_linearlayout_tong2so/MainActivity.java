@@ -102,6 +102,8 @@ public class MainActivity extends AppCompatActivity {
 
         float soA = Float.parseFloat(soThu1);
         float soB = Float.parseFloat(soThu2);
+
+
         //t
         float Thuong = soA / soB;
         //kq
