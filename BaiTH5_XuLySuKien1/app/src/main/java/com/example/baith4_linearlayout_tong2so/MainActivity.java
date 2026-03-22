@@ -25,6 +25,40 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         TimDieuKhien();
+        /// gan bo lang nghe
+        View.OnClickListener boLangngheCong = new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                //xu ly cong
+                XULY_CONG();
+
+            }
+        };
+        nutCong.setOnClickListener(boLangngheCong);
+        nutTru.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //tru
+                XULY_TRU();
+            }
+        });
+        nutNhan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //nhan
+                XULY_NHAN();
+            }
+        });
+        nutChia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //chia
+                XULY_CHIA();
+
+            }
+        });
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -40,77 +74,45 @@ public class MainActivity extends AppCompatActivity {
             nutNhan = (Button) findViewById(R.id.btnNhan);
             nutChia = (Button) findViewById(R.id.btnChia);
         }
-    //
-  public   void Xulycong(View v){
-        //xuly
 
-        String soThu1 = editTextSo1.getText().toString();
-        String soThu2 = editTextSo2.getText().toString();
-
-        float soA = Float.parseFloat(soThu1);
-        float soB = Float.parseFloat(soThu2);
-        //t
-        float Tong = soA + soB;
-        //kq
-
+        void XULY_CONG(){
         //
-        String chuoiKQ = String.valueOf(Tong);
-        //
-        editTextKQ.setText(chuoiKQ);
-
+            String so1 = editTextSo1.getText().toString();
+            String so2 = editTextSo2.getText().toString();
+            float num1 = Float.parseFloat(so1);
+            float num2 = Float.parseFloat(so2);
+            float tong = num1 + num2;
+            String chuoiKQ = String.valueOf(tong);
+            editTextKQ.setText(chuoiKQ);
     }
-    public  void Xulytru(View v){
-        //xuly
+        void XULY_TRU(){
+            String so1 = editTextSo1.getText().toString();
+            String so2 = editTextSo2.getText().toString();
+            float num1 = Float.parseFloat(so1);
+            float num2 = Float.parseFloat(so2);
+            float tong = num1 - num2;
+            String chuoiKQ = String.valueOf(tong);
+            editTextKQ.setText(chuoiKQ);
 
-        String soThu1 = editTextSo1.getText().toString();
-        String soThu2 = editTextSo2.getText().toString();
+        }
+        void XULY_NHAN(){
+            String so1 = editTextSo1.getText().toString();
+            String so2 = editTextSo2.getText().toString();
+            float num1 = Float.parseFloat(so1);
+            float num2 = Float.parseFloat(so2);
+            float tong = num1 * num2;
+            String chuoiKQ = String.valueOf(tong);
+            editTextKQ.setText(chuoiKQ);
 
-        float soA = Float.parseFloat(soThu1);
-        float soB = Float.parseFloat(soThu2);
-        //t
-        float Hieu = soA - soB;
-        //kq
+        }
+        void XULY_CHIA(){
+            String so1 = editTextSo1.getText().toString();
+            String so2 = editTextSo2.getText().toString();
+            float num1 = Float.parseFloat(so1);
+            float num2 = Float.parseFloat(so2);
+            float tong = num1 / num2;
+            String chuoiKQ = String.valueOf(tong);
+            editTextKQ.setText(chuoiKQ);
 
-        //
-        String chuoiKQ = String.valueOf(Hieu);
-        //
-        editTextKQ.setText(chuoiKQ);
-
-    }
-    public void Xulynhan(View v){
-        //xuly
-
-        String soThu1 = editTextSo1.getText().toString();
-        String soThu2 = editTextSo2.getText().toString();
-
-        float soA = Float.parseFloat(soThu1);
-        float soB = Float.parseFloat(soThu2);
-        //t
-        float Nhan = soA*soB;
-        //kq
-
-        //
-        String chuoiKQ = String.valueOf(Nhan);
-        //
-        editTextKQ.setText(chuoiKQ);
-    }
-    public void Xulychia(View v){
-        //xuly
-
-        String soThu1 = editTextSo1.getText().toString();
-        String soThu2 = editTextSo2.getText().toString();
-
-        float soA = Float.parseFloat(soThu1);
-        float soB = Float.parseFloat(soThu2);
-        //t
-        float Thuong = soA / soB;
-        //kq
-
-        //
-        String chuoiKQ = String.valueOf(Thuong);
-        //
-        editTextKQ.setText(chuoiKQ);
-
-    }
-
+        }
 }
