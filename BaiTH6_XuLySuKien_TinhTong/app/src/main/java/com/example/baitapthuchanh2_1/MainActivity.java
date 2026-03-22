@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void XulyCong(View view){
-            //tim
+            //tim tham chieu tap tin xml
           EditText editTextSoA =  findViewById(R.id.edtA);
           EditText   editTextSoB =  findViewById(R.id.edtB);
           EditText   editTextKetQua =  findViewById(R.id.edtKQ);
