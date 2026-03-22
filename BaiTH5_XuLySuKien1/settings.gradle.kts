@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BaiTH4_LinearLayOut_Tong2So"
+rootProject.name = "BaiTH5_XuLySuKien1"
 include(":app")
  
