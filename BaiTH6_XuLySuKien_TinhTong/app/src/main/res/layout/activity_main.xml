@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
+
         android:text="a:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -56,7 +57,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="31dp"
         android:layout_marginEnd="100dp"
-        android:onClick="Xulycong"
+        android:onClick="XulyCong"
         android:text="Tính Tổng"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

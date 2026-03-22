@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
-    public void Xulycong(View view){
+    public void XulyCong(View view){
             //tim
           EditText editTextSoA =  findViewById(R.id.edtA);
           EditText   editTextSoB =  findViewById(R.id.edtB);
