@@ -1,0 +1,7 @@
+com.example.kiemtra.app-pngs-0 D:\65130634-AndroidProgramming\kiemtra\app\build\generated\res\pngs\debug
+com.example.kiemtra.app-updated_navigation_xml-1 D:\65130634-AndroidProgramming\kiemtra\app\build\generated\updated_navigation_xml\debug
+com.example.kiemtra.app-packageDebugResources-2 D:\65130634-AndroidProgramming\kiemtra\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.kiemtra.app-packageDebugResources-3 D:\65130634-AndroidProgramming\kiemtra\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.kiemtra.app-debug-4 D:\65130634-AndroidProgramming\kiemtra\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.kiemtra.app-debug-5 D:\65130634-AndroidProgramming\kiemtra\app\src\debug\res
+com.example.kiemtra.app-main-6 D:\65130634-AndroidProgramming\kiemtra\app\src\main\res
