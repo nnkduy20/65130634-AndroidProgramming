@@ -7,15 +7,48 @@
     android:layout_height="match_parent"
     tools:context=".Cau2Fragment">
 
+<<<<<<< Updated upstream:kiemtra/app/build/intermediates/packaged_res/debug/packageDebugResources/layout/fragment_cau2.xml
+<<<<<<<< Updated upstream:kiemtra/app/build/intermediates/packaged_res/debug/packageDebugResources/layout/fragment_cau2.xml
+=======
+>>>>>>> Stashed changes:kiemtra/app/src/main/res/layout/fragment_cau2.xml
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/textView4"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="cau2"
+<<<<<<< Updated upstream:kiemtra/app/build/intermediates/packaged_res/debug/packageDebugResources/layout/fragment_cau2.xml
+========
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fragmentSpace"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#89D8FB"
+        app:layout_constraintBottom_toTopOf="@+id/BottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/BottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+>>>>>>>> Stashed changes:kiemtra/app/src/main/res/layout/activity_main.xml
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menubaithi" />
+=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+>>>>>>> Stashed changes:kiemtra/app/src/main/res/layout/fragment_cau2.xml
 
 </androidx.constraintlayout.widget.ConstraintLayout>

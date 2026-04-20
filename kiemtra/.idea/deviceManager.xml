@@ -5,7 +5,11 @@
       <list>
         <ColumnSorterState>
           <option name="column" value="Name" />
+<<<<<<< Updated upstream
           <option name="order" value="ASCENDING" />
+=======
+          <option name="order" value="DESCENDING" />
+>>>>>>> Stashed changes
         </ColumnSorterState>
       </list>
     </option>
